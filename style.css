@@ -1,0 +1,54 @@
+body {
+    font-size: 14px;
+    background-image: url("images/background.png");
+    background-size: cover;
+    text-align: center;
+    font-family: Roboto, "Source serif pro", sans-serif;
+}
+
+h1 {
+    color: purple;
+    font-style: italic;
+}
+
+.info img {
+    width: 300px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+i {
+    font-size: 40px;
+    color: black;
+}
+
+i:hover {
+    transform: scale(1.1, 1.1);
+}
+
+p {
+    border: 2px dashed red;
+    font-weight: 500;
+    text-align: center;
+}
+
+ul {
+    background-color: rgb(240, 225, 123);
+    border: 7px solid purple;
+    border-radius: 4px;
+}
+
+.facts,
+.film {
+    text-align: left;
+}
+
+.film img {
+    width: 150px;
+}
